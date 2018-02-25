@@ -2,9 +2,17 @@
 
 Retroarch config files are quite different to MAME. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other advantages, in particular different Cores (including Final Burn Alpha), shader sophistication, and other finetuning.
 
+If you like tweaking, look for Retroarch. For no-hassle solutions, head for something else.
+
 ![alt text](/screenshots/1942.jpg "1942 with Overlay in Retroarch/Final Burn Alpha")
 
-Retroarch overlays come in two parts (three files per Game):
+# Parallel MAME Repository:
+
+I currently dedicate my time to the MAME repository, where all started:
+https://github.com/estefan3112/MAME-Realistic-Bezel-Artwork/blob/master/README.md
+But please stay tuned for further contributions here.
+
+# Retroarch overlays come in two parts (three files per Game):
 
 1. Overlay and image cfg file need to be in the Overlay directory defined in Retroarch. This is different from system to system:
 - Retropie: /opt/retropie/emulators/retroarch/overlays/ -> here create a directory called arcade-bezel-overlays
@@ -16,13 +24,13 @@ The .cfg file configured here is then defined in the Game-specific config file. 
 2. The Game-specific config file provides for the necessary parameters, in particular Overlay orientation and screen size, so this file is dependent on your screen resolution. This makes it less partable than MAME .lay files.
 The files in this repository are designed for 1080p of Retropie. For my iMac (Late 2013), for example, I have to scale the values up by 1.33, and they work. This will be your work.
 
-Location of the Game-specific config files:
+# Location of the Game-specific config files:
 - Retropie: /opt/retropie/configs/all/retroarch/config/((directory of used Retroarch core))
 - MacOS: /Users/((username))/Library/Application\ Support/RetroArch/config/((directory of used Retroarch Core))/
 - Windows: ...
 - Linux: ...
 
-RECOMMENDED STEPS FOR USAGE:
+# RECOMMENDED STEPS FOR USAGE:
 1. Create a new directory called arcade-bezel-overlays in the default directory of your system indicated above.
 2. Take the Overlay graphic files and put them into the directory of your choice. Subdirectories are not needed. 
 3. Choose a Retroarch Core that you want to use with the Overlays, can be more than one.
@@ -30,9 +38,5 @@ RECOMMENDED STEPS FOR USAGE:
 
 The game should then immediately start with the Arcade Bezel. If nothing happens, recheck files (3 per game) and directories.
 
-MAC USERS NEED TO TAKE SPECIAL CARE:
+# MAC USERS NEED TO TAKE SPECIAL CARE:
 Since Overlays are stored in this configuration, be very careful when updating Retroarch on your Mac! Always have your Overlays at a safe place, since a new Retroarch Application Bundle will overwrite your old one, including your custom Overlays!
-
-
-
-
