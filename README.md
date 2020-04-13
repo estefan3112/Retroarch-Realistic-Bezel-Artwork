@@ -1,3 +1,10 @@
+This is a collection of John Merrit's Realistic Bezels that he originally produced for Retroarch.
+
+# Parallel MAME Repository:
+
+I currently dedicate my time to the MAME repository, where all started:
+https://github.com/estefan3112/MAME-Realistic-Bezel-Artwork/blob/master/README.md
+
 # Retroarch Bezel Artwork Explained
 
 Retroarch config files are quite different to MAME. This will be much more work, but is probably worth the effort. In Retroarch, sophisticated overlays like these need more configuration than in MAME. However, Retroarch MAME bears other advantages, in particular different Cores (including Final Burn Alpha), shader sophistication, and other finetuning.
@@ -5,12 +12,6 @@ Retroarch config files are quite different to MAME. This will be much more work,
 If you like tweaking, look for Retroarch. For no-hassle solutions, head for something else.
 
 ![alt text](/screenshots/1942.jpg "1942 with Overlay in Retroarch/Final Burn Alpha")
-
-# Parallel MAME Repository:
-
-I currently dedicate my time to the MAME repository, where all started:
-https://github.com/estefan3112/MAME-Realistic-Bezel-Artwork/blob/master/README.md
-But please stay tuned for further contributions here.
 
 # Retroarch overlays come in two parts (three files per Game):
 
