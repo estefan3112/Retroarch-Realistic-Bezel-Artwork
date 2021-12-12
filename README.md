@@ -1,5 +1,7 @@
 This is a collection of John Merrit's Realistic Bezels that he originally produced for Retroarch.
 
+UPDATE 2021: On my M1 Mac, Retroarch Metal gives me the best Arcarde experience. I started to refresh the overlays stored here, but it will be a long and tedious work. Whenever you find a new configuration file in the Mac Config folder, you can expect a refreshed overlay in the overlay diretory as well.
+
 Note - parallel MAME Repository:
 Here is my repository for MAME, where it all started:
 https://github.com/estefan3112/MAME-Realistic-Bezel-Artwork/blob/master/README.md
