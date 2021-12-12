@@ -41,5 +41,5 @@ This will be your work.
 
 The game should then immediately start with the Arcade Bezel. If nothing happens, recheck files (3 per game) and directories.
 
-# MAC USERS NEED TO TAKE SPECIAL CARE:
-Since Overlays are stored in this configuration, be very careful when updating Retroarch on your Mac! Always have your Overlays at a safe place, since a new Retroarch Application Bundle will overwrite your old one, including your custom Overlays!
+# MAC USERS: OVERLAYS NO LONGER IN APP BUNDLE:
+Good to see that RetroArch has moved the overlay data out of the app bundle into the Application Support directory. Of course you could always configure this differently, but it's much better to have this now as a standard directory.
