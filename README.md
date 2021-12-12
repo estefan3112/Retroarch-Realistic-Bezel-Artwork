@@ -10,7 +10,7 @@ Retroarch config files are quite different to MAME, as the concept is far less f
 
 If you like tweaking, look for Retroarch. For no-hassle solutions, head for something else.
 
-![alt text](/screenshots/1943.jpg "1943 with Overlay in Mac Metal Retroarch/Final Burn Neo on 4K monitor")
+![alt text](/screenshots/1943.jpeg "1943 with Overlay in Mac Metal Retroarch/Final Burn Neo on 4K monitor")
 
 # Retroarch overlays come in two parts (three files per Game):
 
