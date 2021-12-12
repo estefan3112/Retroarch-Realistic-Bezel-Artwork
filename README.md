@@ -1,13 +1,12 @@
 This is a collection of John Merrit's Realistic Bezels that he originally produced for Retroarch.
 
-# Parallel MAME Repository:
-
-I currently dedicate my time to the MAME repository, where it all started:
+Note - parallel MAME Repository:
+Here is my repository for MAME, where it all started:
 https://github.com/estefan3112/MAME-Realistic-Bezel-Artwork/blob/master/README.md
 
 # Retroarch Bezel Artwork Explained
 
-Retroarch config files are quite different to MAME, as the concept is far less flexible than in MAME. However, Retroarch bears other advantages, in particular different Cores (including Final Burn Neo), shader sophistication, and other finetuning.
+Retroarch config files are quite different to MAME, as the concept is far less flexible. However, Retroarch bears other advantages, in particular different Cores (including Final Burn Neo), shader sophistication, and other finetuning.
 
 If you like tweaking, look for Retroarch. For no-hassle solutions, head for something else.
 
@@ -17,25 +16,22 @@ If you like tweaking, look for Retroarch. For no-hassle solutions, head for some
 
 1. Overlay and image cfg file need to be in the Overlay directory defined in Retroarch. This is different from system to system:
 - Retropie: /opt/retropie/emulators/retroarch/overlays/ -> in here create folder 'arcade-bezel-overlays'
-- MacOS: :~/Library/Application Support/RetroArch/overlays/ -> create your own directory, e.g. arcade-bezel-overlays
-- Windows: ...
+- MacOS: :~/Library/Application Support/RetroArch/overlays/ -> create your own directory, e.g. here '00-realisticbezels'
 - Linux: ~/.config/retroarch/overlay/ -> in here create folder 'arcade-bezel-overlays'
 The .cfg file configured here is then defined in the Game-specific config file. So if you change the above paths, you need to rewrite the path in the Game-specific config files as well.
 
 2. The Game-specific config file provides for the necessary parameters, in particular Overlay orientation and screen size, so this file is dependent on your screen resolution. This makes it far less portable than MAME .lay files.
 The files in this repository are designed for 1080p of Retropie. For my iMac (Late 2013), for example, I have to scale the values up by 1.33, and they work. For a 4k 16:9 monitor, you obviously need to double the 1080p resolution.
-
 This will be your work.
 
 # Location of the Game-specific config files:
 - Retropie: /opt/retropie/configs/all/retroarch/config/((directory of used Retroarch core))
 - MacOS: /Users/((username))/Library/Application\ Support/RetroArch/config/#directory of used Retroarch Core#/
-- Windows: ...
 - Linux: ~/.config/retroarch/config/#directory of used Retroarch core#
 
 # RECOMMENDED STEPS FOR USAGE:
-1. Create a new directory called arcade-bezel-overlays in the default directory of your system indicated above.
-2. Take the Overlay graphic files and put them into the directory of your choice. Subdirectories are not needed.
+1. Create a new directory in the default directory of your system indicated above.
+2. Take the overlay graphic files and put them into the directory of your choice. Subdirectories are not needed.
 3. Choose a Retroarch Core that you want to use with the Overlays, can be more than one.
 4. Put the Game-specific config files into the respective sub-diretory of the Core.
 
