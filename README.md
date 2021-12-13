@@ -1,4 +1,11 @@
-This is a collection of John Merrit's Realistic Bezels that he originally produced for Retroarch.
+This is a collection based on John Merrit's Realistic Bezels that he originally produced for RetroPie.
+Main contributions of this repository:
+- This is mainly for RetroArch MacOS, but with a correction of the path in the game .cfg, it works on any OS.
+- I remove the scratch screens (you can have them in my MAME repo switched on and off).
+- I add decent screen bezels and screen masks as layers and merge them into one PNG (example: 1943).
+- I add single bezels from other producers, such as Orion's Angel (e.g. Alien Syndrome).
+- Only unchanged bezels of John Merrit will stay.
+This is strictly non-commercial work.
 
 ## UPDATE 2021: a fresh start for my Mac
 On my M1 Mac, Retroarch Metal gives me the best Arcarde experience. I started to refresh the overlays stored here, but it will be a long and tedious work. Whenever you find a new configuration file in the Mac Config folder, you can expect a refreshed overlay in the overlay diretory as well.
@@ -20,7 +27,7 @@ If you like tweaking, look for Retroarch. For no-hassle solutions, head for some
 ![alt text](/screenshots/1943.jpeg "1943 with Overlay in Mac Metal Retroarch/Final Burn Neo on 4K monitor")
 ![alt text](/screenshots/berzerk.jpeg "Berzerk with Overlay in Mac Metal Retroarch/Final Burn Neo on 4K monitor")
 
-# Retroarch overlays come in two parts (three files per Game):
+## Retroarch overlays come in two parts (three files per Game):
 
 1. Overlay and image cfg file need to be in the Overlay directory defined in Retroarch. This is different from system to system:
 - Retropie: /opt/retropie/emulators/retroarch/overlays/ -> in here create folder 'arcade-bezel-overlays'
@@ -32,12 +39,12 @@ The .cfg file configured here is then defined in the Game-specific config file. 
 The files in this repository are designed for 1080p of Retropie. For my iMac (Late 2013), for example, I have to scale the values up by 1.33, and they work. For a 4k 16:9 monitor, you obviously need to double the 1080p resolution.
 This will be your work.
 
-# Location of the Game-specific config files:
+## Location of the Game-specific config files:
 - Retropie: /opt/retropie/configs/all/retroarch/config/((directory of used Retroarch core))
 - MacOS: /Users/((username))/Library/Application\ Support/RetroArch/config/#directory of used Retroarch Core#/
 - Linux: ~/.config/retroarch/config/#directory of used Retroarch core#
 
-# RECOMMENDED STEPS FOR USAGE:
+## RECOMMENDED STEPS FOR USAGE:
 1. Create a new directory in the default directory of your system indicated above.
 2. Take the overlay graphic files and put them into the directory of your choice. Subdirectories are not needed.
 3. Choose a Retroarch Core that you want to use with the Overlays, can be more than one.
@@ -45,5 +52,5 @@ This will be your work.
 
 The game should then immediately start with the Arcade Bezel. If nothing happens, recheck files (3 per game) and directories.
 
-# MAC USERS: OVERLAYS NO LONGER IN APP BUNDLE:
+## MAC USERS: OVERLAYS NO LONGER IN APP BUNDLE:
 Good to see that RetroArch has moved the overlay data out of the app bundle into the Application Support directory. Of course you could always configure this differently, but it's much better to have this now as a standard directory.
